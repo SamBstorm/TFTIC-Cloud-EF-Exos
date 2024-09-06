@@ -21,6 +21,7 @@ namespace Exo01
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new FilmConfig());
+            modelBuilder.ApplyConfiguration(new FilmDataSet());
         }
     }
 }
